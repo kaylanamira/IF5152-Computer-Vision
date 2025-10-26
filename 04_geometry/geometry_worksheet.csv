@@ -1,0 +1,3 @@
+transform_name,type,src_points_used,dst_points_used,notes
+projective_transform,ProjectiveTransform,"[[0, 0], [199, 0], [199, 199], [0, 199]]","[[20.0, 40.0], [180.0, 20.0], [160.0, 180.0], [40.0, 160.0]]",Simulasi Homography (Projective Transform) - Tampilan perspektif
+affine_shear_transform,AffineTransform,"[[0, 0], [199, 0], [199, 199]]","[[0, 0], [199, 0], [50, 199]]",Simulasi Affine Transform - Efek 'Shear'

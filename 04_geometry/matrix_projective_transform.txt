@@ -1,0 +1,6 @@
+Matriks Estimasi (projective_transform)
+Tipe: ProjectiveTransform
+
+0.5456	0.1579	20.0000
+-0.1292	0.8327	40.0000
+-0.0014	0.0014	1.0000

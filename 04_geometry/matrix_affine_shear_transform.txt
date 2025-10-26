@@ -1,0 +1,6 @@
+Matriks Estimasi (affine_shear_transform)
+Tipe: AffineTransform
+
+1.0000	-0.7487	0.0000
+0.0000	1.0000	0.0000
+0.0000	0.0000	1.0000

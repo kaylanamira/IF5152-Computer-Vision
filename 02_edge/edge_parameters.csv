@@ -1,0 +1,31 @@
+image,method,notes,sigma,low_threshold,high_threshold
+cameraman,sobel,Sobel,,,
+cameraman,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+cameraman,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+cameraman,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+cameraman,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3
+coins,sobel,Sobel,,,
+coins,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+coins,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+coins,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+coins,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3
+checkerboard,sobel,Sobel,,,
+checkerboard,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+checkerboard,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+checkerboard,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+checkerboard,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3
+astronaut,sobel,Sobel,,,
+astronaut,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+astronaut,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+astronaut,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+astronaut,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3
+chelsea,sobel,Sobel,,,
+chelsea,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+chelsea,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+chelsea,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+chelsea,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3
+personal,sobel,Sobel,,,
+personal,canny_sigma1_low_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds rendah",1.0,0.05,0.15
+personal,canny_sigma1_high_thresh,"Eksperimen Threshold: Sigma=1.0, Thresholds tinggi",1.0,0.1,0.3
+personal,canny_sigma3_low_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds rendah",3.0,0.05,0.15
+personal,canny_sigma3_high_thresh,"Eksperimen Threshold: Sigma=3.0, Thresholds tinggi",3.0,0.1,0.3

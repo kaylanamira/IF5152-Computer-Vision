@@ -1,0 +1,127 @@
+image,filter_name,notes,sigma,footprint
+cameraman,gaussian_sigma1,Standard smoothing,1.0,
+cameraman,gaussian_sigma3,Strong smoothing,3.0,
+cameraman,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+cameraman,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+cameraman,sobel,Gradient magnitude (edge),,
+coins,gaussian_sigma1,Standard smoothing,1.0,
+coins,gaussian_sigma3,Strong smoothing,3.0,
+coins,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+coins,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+coins,sobel,Gradient magnitude (edge),,
+checkerboard,gaussian_sigma1,Standard smoothing,1.0,
+checkerboard,gaussian_sigma3,Strong smoothing,3.0,
+checkerboard,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+checkerboard,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+checkerboard,sobel,Gradient magnitude (edge),,
+astronaut,gaussian_sigma1,Standard smoothing,1.0,
+astronaut,gaussian_sigma3,Strong smoothing,3.0,
+astronaut,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+astronaut,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+astronaut,sobel,Gradient magnitude (edge),,
+chelsea,gaussian_sigma1,Standard smoothing,1.0,
+chelsea,gaussian_sigma3,Strong smoothing,3.0,
+chelsea,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+chelsea,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+chelsea,sobel,Gradient magnitude (edge),,
+personal,gaussian_sigma1,Standard smoothing,1.0,
+personal,gaussian_sigma3,Strong smoothing,3.0,
+personal,median_disk3,"Salt-pepper removal, k=3",,"[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]"
+personal,median_disk5,"Strong Salt-pepper removal, k=5",,"[[0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 1 1 1 1 1 1 1 1 1 0]
+ [0 0 1 1 1 1 1 1 1 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0]]"
+personal,sobel,Gradient magnitude (edge),,
